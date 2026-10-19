@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar sm:navbar-expand bg-1 fg-2" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logos/logo.png" width="200px">
+                </a>
+                <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+                <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">ទំព័រដើម</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product.html">ផលិតផល</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">អំពីពួកយើង</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="contact.html">ទំនាក់ទំនង</a>
+                            </li>
+                        </ul>
+                    </div>
+                </dialog>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleInterval" class="carousel carousel-fade slide" data-bs-autoplay="true">
+        <div class="carousel-inner rounded-5">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="assets/images/banners/1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="assets/images/banners/2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+                <img src="assets/images/banners/3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <button class="btn-icon btn-sm carousel-control-play-pause" type="button"
+                data-bs-target="#carouselExampleInterval" aria-label="Pause" data-bs-pause-label="Pause"
+                data-bs-play-label="Play">
+                <span class="carousel-icon-pause" aria-hidden="true"></span>
+                <span class="carousel-icon-play" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c1.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c2.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c3.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c6.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c5.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c10.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c16.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c18.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c15.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c17.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c7.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c8.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c13.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c14.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c9.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c11.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c4.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <section class="card">
+                    <img src="assets/images/categories/c12.png" class="card-img-top" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">laptop</h4>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer class="bg-milk text-dark pt-5 pb-4 border-top>
+            <div class=" container">
+            <div class="row g-4 justify-content-between">
+
+                <!-- Column 1: Brand & Bio -->
+                <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-dark text-white rounded px-2 py-1 me-2 fw-bold font-monospace ">LVH-</div>
+                        <div>
+                            <h5 class="mb-0 fw-bold fs-6">LVH-Laptop</h5>
+                            <small class="text-muted" style="font-size: 0.75rem;">have new product,good quality and
+                                built for speet and clarity</small>
+                        </div>
+                    </div>
+                    <p class="text-muted small mb-3">
+                        A modern workspace for teams that need polished product experience
+                        and clear information architecture.
+
+                    </p>
+                    <div class="d-flex gap-3 text-muted small">
+                        <span><i class="bi bi-headset me-1"></i> 24/7</span>
+                        <span>•</span>
+                        <span>Updated weekly</span>
+                    </div>
+                </div>
+
+                <!-- Column 2: Product Links -->
+                <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                    <h6 class="text-uppercase fw-bold fs-7 text-secondary mb-3"
+                        style="font-size: 0.75rem; letter-spacing: 0.5px;">Product</h6>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small">
+                        <li><a href="#" class="text-decoration-none text-muted">Features</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Templates</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Integrations</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Security</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Company Links -->
+                <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                    <h6 class="text-uppercase fw-bold text-secondary mb-3"
+                        style="font-size: 0.75rem; letter-spacing: 0.5px;">Company</h6>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small">
+                        <li><a href="#" class="text-decoration-none text-muted">About</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Careers</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Press</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Resources Links -->
+                <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                    <h6 class="text-uppercase fw-bold text-secondary mb-3"
+                        style="font-size: 0.75rem; letter-spacing: 0.5px;">Resources</h6>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small">
+                        <li><a href="#" class="text-decoration-none text-muted">Blog</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Guides</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">API Docs</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Status</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 5: Legal Links -->
+                <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                    <h6 class="text-uppercase fw-bold text-secondary mb-3"
+                        style="font-size: 0.75rem; letter-spacing: 0.5px;">Legal</h6>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small">
+                        <li><a href="#" class="text-decoration-none text-muted">Privacy</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Terms</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Cookies</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Accessibility</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 6: Newsletter -->
+                <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                    <h6 class="text-uppercase fw-bold text-secondary mb-3"
+                        style="font-size: 0.75rem; letter-spacing: 0.5px;">Newsletter</h6>
+                    <p class="text-muted small mb-3">Get product updates, launch notes, and design insights delivered to
+                        your inbox.</p>
+                    <form class="input-group bg-white border rounded-pill p-1 shadow-sm">
+                        <input type="email" class="form-control border-0 bg-transparent shadow-none px-3 py-1 small"
+                            placeholder="Email address" aria-label="Email address">
+                        <button class="btn btn-dark rounded-pill px-3 py-1 text-white small"
+                            type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+
+
+                <!-- Bottom Bar: Copyright & Socials -->
+                <div class="row align-items-center pt-4 mt-4 border-top small text-muted">
+                    <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                        &copy; 2026 LVH-Laptop. All rights reserved.
+                    </div>
+                    <div
+                        class="col-md-6 text-center text-md-end d-flex align-items-center justify-content-center justify-content-md-end gap-3">
+                        <span>Follow us :</span>
+                        <div class="social-icons">
+                            <a href="https://facebook.com" target="_blank">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg"
+                                    alt="Facebook">
+                            </a>
+
+                            <a href="https://instagram.com" target="_blank">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg"
+                                    alt="Instagram">
+                            </a>
+
+                            <a href="https://t.me" target="_blank">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/telegram.svg"
+                                    alt="Telegram">
+                            </a>
+
+                            <a href="https://tiktok.com" target="_blank">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tiktok.svg" alt="TikTok">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
